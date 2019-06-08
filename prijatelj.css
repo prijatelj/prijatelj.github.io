@@ -1,0 +1,34 @@
+
+/* Define the standards for this website's content. */
+:root {
+    font-size: 100%;
+    /*
+    --main-pad: 0.25em;
+    --main-bg-color: #ffe1a5;
+    */
+}
+
+body {
+    /*
+    background-color: #ffe1a5;
+    */
+    background-color: #ffe5b2;
+    color: #331f00;
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+}
+
+/* Want the content background to be one solid color. */
+#main_content {
+    margin: auto;
+    padding: 0.5em;
+    /* max width of 1k px or 800px? or 60em or 50em?*/
+    max-width: 50em;
+    border: 1px solid #331f00;
+    overflow: auto;
+}
+
+#personal_image {
+    float: right;
+    margin: -0.5em -0.5em -0.5em 0.5em;
+}
