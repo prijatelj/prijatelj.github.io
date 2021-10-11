@@ -12,8 +12,12 @@ body {
     /*
     background-color: #ffe1a5;
     */
+    /*
     background-color: #ffe5b2;
     color: #331f00;
+    */
+    background-color: #ffffff
+    color: #000000;
     font-family: "Times New Roman", Times, serif;
     text-align: justify;
 }
@@ -21,10 +25,10 @@ body {
 /* Want the content background to be one solid color. */
 #main_content {
     margin: auto;
-    padding: 0.5em;
+    padding: 1.0em;
     /* max width of 1k px or 800px? or 60em or 50em?*/
     max-width: 50em;
-    border: 1px solid #331f00;
+    /*border: 1px solid #331f00;*/
     overflow: auto;
 }
 
@@ -34,7 +38,7 @@ body {
 }
 
 .social_icon {
-    width: 1.5em;
-    height: 1.5em;
-    margin: 0.1em;
+    width: 3em;
+    height: 3em;
+    margin: 0.3em;
 }
