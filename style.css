@@ -1,0 +1,32 @@
+:root {
+    font-size: 100%;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+		font-size: 1.1em;
+}
+
+#main_content {
+    margin: auto;
+    padding: 1.0em;
+    max-width: 40em;
+    overflow: auto;
+}
+
+#logo {
+	display: block;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	decoding: async;
+}
+
+.social_icon {
+    width: 3em;
+    height: 3em;
+    margin: 0.3em;
+}
